@@ -1,0 +1,356 @@
+
+body{
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Merriweather Sans',sans-serif;
+}
+.footer{
+  padding: 2% 7% 2% 3%;
+  background-image: linear-gradient(to right,#005792,#0795ED);
+}
+.footer-icons{
+  text-align: center;
+  padding: 2% 0;
+}
+.fab, .fas{
+  font-size: 2.2rem;
+  margin: 0 0.5rem;
+}
+.fa-facebook-f, .fa-linkedin, .fa-envelope{
+  color: white;
+}
+.footer-logo-heading{
+  text-align: center;
+}
+.footer-hr{
+  width: 50%;
+
+}
+.quick-links{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Home Page */
+.container-fluid{
+  padding-bottom: 1.5%;
+  font-size: 1.1rem;
+}
+.navbar-light .nav-item .nav-link{
+  color: black;
+}
+.nav-item{
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+
+}
+.carousel{
+  padding: 3% 9%;
+  }
+#slider{
+  text-align: center;
+  padding: 5% 0;
+  background-color:#f9f9f9;
+  /* background-image: linear-gradient(to right,#005792,#0795ED); */
+}
+
+.about{
+  padding: 5% 5% 5% 3%;
+  letter-spacing: 0.12rem;
+  text-rendering: optimizeLegibility;
+  }
+h3{
+  margin: 20px 0;
+}
+p{
+line-height: 1.5;
+font-size: 1.2rem;
+}
+/* About Us Page */
+#about-us-about{
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.about-us{
+
+text-rendering: optimizeLegibility;
+vertical-align: baseline;
+padding: 5% 0;
+/* width: 52%; */
+display: inline-block;
+text-align: left;
+}
+@media(min-width:400px){
+  .about-us{
+    width:80%;
+  }
+}
+
+@media(min-width:700px){
+  .about-us{
+    width: 52%;
+  }
+}
+.about-us-heading{
+  color: #005eb8;
+  font-weight: bold;
+}
+.about-us-subheading{
+  color: #005eb8;
+  font-weight: bold;
+}
+
+
+/* Associations Page */
+.associations{
+  /* width:60%; */
+}
+
+.associations-bar{
+  width:30%;
+  border-top: 1px solid black;
+}
+@media(min-width:992px){
+  .associations{
+    width:60%;
+  }
+}
+/* Direct Associations */
+#direct-associations{
+  text-align: center;
+  padding: 5% 0 0 0;
+  background-color: #f9f9f9;
+  /* margin:120px 0 50px 100px; */
+}
+
+.da{
+  text-align: center;
+  margin: 30px 0;
+}
+.da-item{
+  max-width: 100%;
+  height: auto;
+}
+
+.philips,.three-m,.ge,.microlife {
+  width: 180px;
+  height: 108px;
+}
+.paramount{
+  width:420px;
+  height:46px;
+  /* margin-top: 60px; */
+}
+.fia-biomed{
+  margin-top: 35px;
+  width: 190px;
+  height:20px;
+}
+
+/* Indirect Associations */
+#indirect-associations{
+  text-align: center;
+  padding: 5% 0 0 0;
+  /* margin: 100px 0 50px 100px; */
+}
+.ia{
+  text-align: center;
+  margin: 30px 0;
+}
+.ia-item{
+  max-width: 100%;
+  height: auto;
+}
+.dgm,.grundfos,.hitachi,.oxymat,.alfa-laval,.midea,.naffco,.papae,.thermax,.trident,.beacon-medaes,.endress{
+  width:180px;
+  height:108px;
+}
+.midea,.papae{
+  margin-top: 30px;
+}
+
+/* Sister Concern Page*/
+.sister-head{
+  /* width:55%; */
+}
+@media(min-width:992px){
+  .sister-head{
+    width:55%;
+  }
+}
+.sister{
+  line-height: 1.5;
+  margin: 50px 0 50px 0;
+}
+
+/* Our Products Page */
+.ecg-data{
+  width:300px;
+  height:185px;
+}
+.ecg-stress{
+  width:200px;
+  height:236px;
+}
+.ecg-rest{
+  width: 300px;
+  height:167px;
+}
+.ventilator-2{
+  width: 300px;
+  height: 224px;
+}
+.ventilator{
+  width: 300px;
+  height: 150px;
+}
+.ultrasound-2{
+  width: 300px;
+  height: 175px;
+}
+.ultrasound-3{
+  width: 300px;
+  height: 240px;
+}
+.littman{
+  width: 250px;
+  height:250px;
+}
+.bmi-scale{
+  height: 350px;
+}
+.blood-pressure,.blood-glucose,.baby-care,.respiratory-care,.thermometer{
+  width: 250px;
+  height:250px;
+}
+.weighing-scale{
+  height: 24rem;
+}
+
+.electrode{
+  width:200px;
+  height:210px;
+}
+.ioban,.coban,.cavilon,.scotch-tape{
+  width:200px;
+  height: 200px;
+}
+.mask{
+  width: 300px;
+  height: 222px;
+}
+.tegaderm{
+  width: 300px;
+  height: 198px;
+}
+.hospital-bed{
+  width: 300px;
+  height: 225px;
+}
+.waste-bin,.incinerator,.shredder,.needle-cutter{
+  width: 320px;
+  height: 220px;
+}
+.omniscan,.omnipaque,.visipaque,.clariscan{
+  width: 300px;
+  height: 175px;
+}
+@media(max-width:900px)
+.card .card-item{
+  width:100%;
+}
+
+.medical-equipments-sub{
+  margin: 3rem 0;
+}
+@media(min-width:992px){
+  .medical-equipment-image{
+    margin-left: 3rem;
+  }
+
+  .medical-equipment-sub-images-box{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+  }
+}
+.medical-equipment-sub-images-box{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.hospital-furniture-sub-images-box{
+  padding: 2% 12%;
+}
+.hospital-bed{
+  margin-left: 3rem;
+}
+.subheading-box{
+  padding: 2% 0%;
+}
+.subheading-box .card{
+  width: 300px;
+}
+
+@media(min-width:1050px){
+  .subheading-box{
+  padding: 2% 10%;
+}
+}
+@media(min-width:873px){
+  .subheading-box .card
+}
+.subheading-box-contains-oneitem{
+  padding: 2% 64.5% 2% 10%;
+}
+.subheading-box-twoitems{
+  padding: 2% 37% 2% 10%;
+}
+.waste-management-images-box{
+  padding: 3% 12%;
+}
+.waste-management-image{
+  margin-left: 3rem;
+}
+.accordion .card .card-header .mb-0 .btn{
+ color:  #005eb8;
+ background-color: #f9f9f9;
+ padding: 0%;
+}
+.accordion .card .card-header :hover{
+  text-decoration: none;
+}
+
+/* Contact Us Page */
+#contact-us .contact-us-form{
+    padding-top: 2%;
+}
+
+input{
+  margin: 0.2rem 0 1rem 0;
+}
+.get-in-touch{
+  margin: 2rem 0;
+}
+.contact-us-send{
+  margin: 1rem 0;
+}
+.btn-dark{
+  background-color: black;
+}
+
+
+/* Responsive Breakpoints for Contact Us Page */
+@media (min-width: 470px){
+#contact-us .contact-us-form{
+  min-width: 470px;
+}
+}
+@media (min-width: 992px){
+  #contact-us .contact-us-form{
+    width: 60%;
+  }
+}
